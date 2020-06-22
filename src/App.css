@@ -2,23 +2,44 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.Page {
+  width: 100%;
+  min-width: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.Title {
+  font-size: 2.2em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(12, 63, 231);
+  letter-spacing: 0.02em;
+  text-shadow: 1px 1px 2px black;
 }
 
-.App-intro {
-  font-size: large;
+.BoxProduct {
+  width: 80vw;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.Photo {
+  height: 60%;
+}
+
+.TitleTwo {
+  color: #e20606;
+  letter-spacing: 0.02em;
+  text-shadow: 1px 1px 2px black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Text {
+  width: 60vw;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }

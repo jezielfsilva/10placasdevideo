@@ -56,7 +56,7 @@ class Products extends React.Component {
                 },
 
                 {
-                    img: 'https://images-americanas.b2w.io/spacey/2019/11/28/v2__REDFRIDAY__DESK__header__cupom.png',
+                    img: 'https://images-americanas.b2w.io/produtos/01/00/sku/15852/5/15852502_1GG.jpg',
                     title: 'Geforce Chipset Vídeo GT610 1GB DDR2',
                     text: 'R$ 249,84 ficha técnica: Código-187933483 peso-0.315'
                 },
@@ -72,13 +72,16 @@ class Products extends React.Component {
 
     render () {
         return (
-            <div>
+            <div className="Page">
+                <h1 className="Title">Placas de vídeo custo x benefício</h1>
                 {this.state.videocards.map(produto => {
                     return (
-                        <div>
-                            <img src = {produto.img} />
-                            <h1>{produto.title}</h1>
-                            <p>{produto.text}</p>
+                        <div className="BoxProduct">
+                            <img className="Photo" src = {produto.img} />
+                            <div>
+                                <h2 className="TitleTwo">{produto.title}</h2>
+                                <p className="Text">{produto.text}</p>
+                            </div>
                         </div>
                     )
                 }
