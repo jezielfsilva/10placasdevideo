@@ -5,6 +5,7 @@
 .Page {
   width: 100%;
   min-width: 100vh;
+  background-color: #cacaca;
   display: flex;
   flex-direction: column;
   align-items: center;
